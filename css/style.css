@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  height: 100%;
+}
+img {
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+h1 {
+  padding: 5px 0;
+  padding-left: 60px;
+  margin: 0;
+}
+center {
+  margin: 10px;
+}
+
+#outer_wrapper {
+    overflow: scroll;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #d49d81;
+    padding: 10px;
+}
+#outer_wrapper #inner_wrapper {
+    /**width:6000px;**/
+}
+#outer_wrapper #inner_wrapper div.book {
+    float: left;
+    margin: 0 4px 0 0;
+    border: 3px black solid;
+    position: relative;
+    align-content: center;
+}
+#outer_wrapper #inner_wrapper div.upper_stripe {
+  height: 15px;
+  margin-top: 15px;
+  width: 100%;
+}
+#outer_wrapper #inner_wrapper div.lower_stripe {
+  height: 15px;
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+}
+#spacer {
+  background-color: #d49d81;
+  height: 800px;
+  width: 20px;
+}

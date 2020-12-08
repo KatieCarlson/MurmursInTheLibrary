@@ -3,8 +3,8 @@ body {
   height: 100%;
 }
 img {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -18,12 +18,16 @@ center {
   margin: 10px;
 }
 
+p {
+  font-size: 10px;
+}
+
 #outer_wrapper {
     overflow: scroll;
     width: 100%;
     position: absolute;
     bottom: 0;
-    background-color: #d49d81;
+    background-color: whitesmoke;
     padding: 10px;
 }
 #outer_wrapper #inner_wrapper {
@@ -48,7 +52,16 @@ center {
   width: 100%;
 }
 #spacer {
-  background-color: #d49d81;
-  height: 800px;
+  background-color: whitesmoke;
+  height: 900px;
   width: 20px;
+}
+
+header {
+  display: block;
+  margin-top: 10px;
+}
+
+h2, h3, p {
+  font-family: 'Courier New', Courier, monospace;
 }

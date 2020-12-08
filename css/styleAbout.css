@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    height: 100%;
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    text-align: center;
+    margin-top: 5%;
+}
+
+header a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: teal;
+    color: black;
+}
+
+header a:hover {
+    background-color: lightseagreen;
+}
+
+img {
+    display: inline-block;
+    margin: 1%;
+}
+
+p {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}

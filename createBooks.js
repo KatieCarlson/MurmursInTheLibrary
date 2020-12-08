@@ -17,11 +17,14 @@ var height = [200, 0, 300, 0, 5, 100, 300];
 
 // Keep these audio files in order so that the numbers of the episodes are
 // always increasing.  Make sure you have the right file path as well
-var a1 = { Number: 176, Filename: 'audio/beep.mp3' };
-var a2 = { Number: 180, Filename: 'audio/beep.mp3' };
+var a1 = { Number: 176, Filename: 'audio/review1.mp3' };
+var a2 = { Number: 180, Filename: 'audio/review2.mp3' };
+var a3 = { Number: 188, Filename: 'audio/review3.mp3' };
+var a4 = { Number: 193, Filename: 'audio/review4.mp3' };
+var a5 = { Number: 199, Filename: 'audio/review5.mp3' };
 
 // Add all of the audio file objects to this array, in the same order
-var audioFiles = [a1, a2];
+var audioFiles = [a1, a2, a3, a4, a5];
 
 var widthTracker = 15;
 

@@ -698,11 +698,29 @@ var height = [3,
 
 // Keep these audio files in order so that the numbers of the episodes are
 // always increasing.  Make sure you have the right file path as well
-var a1 = { Number: 176, Filename: 'audio/beep.mp3' };
-var a2 = { Number: 180, Filename: 'audio/beep.mp3' };
+var a1 = { Number: 176, Filename: 'audio/review1.mp3' };
+var a2 = { Number: 180, Filename: 'audio/review2.mp3' };
+var a3 = { Number: 188, Filename: 'audio/review3.mp3' };
+var a4 = { Number: 193, Filename: 'audio/review4.mp3' };
+var a5 = { Number: 199, Filename: 'audio/review5.mp3' };
+var a6 = { Number: 225, Filename: 'audio/review1.mp3' };
+var a7 = { Number: 230, Filename: 'audio/review2.mp3' };
+var a8 = { Number: 242, Filename: 'audio/review3.mp3' };
+var a9 = { Number: 250, Filename: 'audio/review4.mp3' };
+var a10 = { Number: 278, Filename: 'audio/review5.mp3' };
+var a11 = { Number: 291, Filename: 'audio/review1.mp3' };
+var a12 = { Number: 293, Filename: 'audio/review2.mp3' };
+var a13 = { Number: 299, Filename: 'audio/review3.mp3' };
+var a14 = { Number: 310, Filename: 'audio/review4.mp3' };
+var a15 = { Number: 316, Filename: 'audio/review5.mp3' };
+var a16 = { Number: 341, Filename: 'audio/review1.mp3' };
+var a17 = { Number: 368, Filename: 'audio/review2.mp3' };
+var a18 = { Number: 391, Filename: 'audio/review3.mp3' };
+var a19 = { Number: 450, Filename: 'audio/review4.mp3' };
+var a20 = { Number: 505, Filename: 'audio/review5.mp3' };
 
 // Add all of the audio file objects to this array, in the same order
-var audioFiles = [a1, a2];
+var audioFiles = [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20];
 
 var widthTracker = 15;
 
@@ -749,7 +767,7 @@ function makeBooks() {
         audio.appendChild(sourceOgg);
 
         img = document.createElement('img');
-        img.src = 'speaker.png';
+        img.src = 'speaker2.png';
         fileIterator += 1;
       }
 
